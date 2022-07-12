@@ -3,9 +3,9 @@ Lights Out, a replica of the popular game made by Tiger Electronics (read more a
 
 The rules are simple. You want to turn all the lights off to win; whenever you click a light, it and its surrounding lights are all toggled (like a "plus" sign). [Here](https://en.wikipedia.org/wiki/Lights_Out_(game)#Light_chasing) is an easy strategy that guarantees a win.
 
-## Note that the board given is ALWAYS solvable (you don't have to worry about encountering an unbeatable board!) **Click [*here*](https://prempreetbrar.github.io/Lights-Out/) to play!** Or, watch a quick gif of me playing below
+## Note that the board given is ALWAYS solvable (you don't have to worry about encountering an unbeatable board!) **Click [*here*](https://prempreetbrar.github.io/Lights-Out/) to play!** Or, watch a quick gif of me playing below:
 
-![](HangmanDemo.gif)
+![](Lights-Out-Demo.gif)
 
 &nbsp;
 
@@ -105,4 +105,4 @@ This will open up the Lights Out game using your computer as a host in your defa
 - I rarely use arrow functions; I want to be as explicit as I can when possible, and only use arrow functions for callbacks. In a class component, I would use an arrow function so I don't have to explicitly bind ```this```, but this is not a concern in a functional component.
 - The algorithm for determining if a board is solvable is a brute force method (it solves the entire game itself before showing the board to you).  I tried using a more generalized method but these involved [a lot of linear algebra](https://ida.mtholyoke.edu/bitstream/handle/10166/693/375.pdf?sequence=1&isAllowed=y) (which I love but wasn't wanting to code at this moment :D). My focus was on learning React, rather than getting sidetracked on the best algorithm to use in the game.
 - The game itself uses HTML tables; this is a 1990s approach to formatting a webpage, but I stuck with it because my primary focus was on the interaction between the components, NOT on HTML and CSS. 
-- A lot of the CSS is taken from a tutorial; without this CSS I would have had a grey and white square (which wouldn't have been as appealing!). This was primarily to improve my React skills.
+- A lot of the CSS is taken from a tutorial; without this CSS I would have had a grey and white square (which wouldn't have been as appealing!). The focus of this project was to improve my React skills.
