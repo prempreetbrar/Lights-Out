@@ -52,7 +52,8 @@ in the terminal.
 3. Check if you have node and npm installed by running ```node --version``` and ```npm --version``` in the terminal. If not, repeat step 2.
     
 4. Click on the green button on the top right that says "Code". Click download ZIP, right click on the *Lights-out-master* folder, click *Get Info*, copy the path (the text beside *Where*): 
-![image](https://user-images.githubusercontent.com/89614923/177059031-e221486f-dfcd-4d1a-b864-e04de2f3e93d.png)
+<img width="396" alt="Screen Shot 2022-07-11 at 9 35 16 PM" src="https://user-images.githubusercontent.com/89614923/178403232-ecdc241b-42fa-4c87-ba6b-3d8981adbefd.png">
+
     
 5. Open up a terminal and write
 
